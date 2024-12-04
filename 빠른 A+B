@@ -1,0 +1,8 @@
+import sys
+
+n = int(input())
+for i in range(n):
+    a, b = map(int, sys.stdin.readline().split())
+    print(a+b)
+
+n은 정수, i는 n까지, 파이썬을 사용하면 sys.stdin.readline을 사용할 수 있다. 
