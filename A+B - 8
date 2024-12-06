@@ -1,0 +1,7 @@
+t = int(input())
+
+for x in range(1, t+1):  # 1부터 t까지
+    a, b = map(int, input().split())
+    print(f'Case #{x}: {a} + {b} = {a+b}')
+
+split을 쓴다는 것을 깜빡했다. f넣고 문자열에 쓴다는 사실들을 기억하자.
