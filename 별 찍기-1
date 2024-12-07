@@ -1,0 +1,6 @@
+N = int(input())
+for i in range(N):
+    i += 1
+    print("*" * i)
++= 연산자를 기억하자.
+https://velog.io/@jsw8050/%EB%B0%B1%EC%A4%80-2438%EB%B2%88-for%EB%AC%B8-%EB%B3%84-%EC%B0%8D%EA%B8%B0-1-Python
