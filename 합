@@ -1,0 +1,14 @@
+정답코드
+
+n = int(input())
+ans = 0
+for i in range(1, n+1):
+    ans += i
+print(ans)
+
+내 풀이 오답
+
+for i in range(1, n+1):
+    n+1 = (i + n)/2
+    print(n+1)
+연산자를 잘 사용해보자
