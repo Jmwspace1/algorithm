@@ -1,0 +1,9 @@
+정답코드
+while True:
+    try:
+        a,b = map(int, input().split())
+        print(a+b)
+    except:
+        break
+
+for문만 집중해서 while문을 떠올리지 못했다. 화이팅하자
