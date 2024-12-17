@@ -1,0 +1,6 @@
+N = int(input())
+lst = list(map(int, input().split()))
+print(min(lst), max(lst))
+출처: https://calkolab.tistory.com/entry/BAEKJOON-PYTHON-10818 [CALKO LAB:티스토리]
+
+최대 최소를 뽑는 명령어를 기억하자
